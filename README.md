@@ -1,6 +1,6 @@
 # Rsc::Arena
 
-TODO: Write a gem description
+The Arena for bots matches.
 
 ## Installation
 

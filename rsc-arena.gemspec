@@ -4,8 +4,8 @@ require File.expand_path('../lib/rsc-arena/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Maurizio De Magnis"]
   gem.email         = ["maurizio.demagnis@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{The Arena for bots matches.}
+  gem.summary       = %q{Made for the Ruby Social Club.}
   gem.homepage      = ""
 
   gem.add_development_dependency 'rspec'
