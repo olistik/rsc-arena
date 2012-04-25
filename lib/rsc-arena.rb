@@ -1,7 +1,5 @@
 require "rsc-arena/version"
+require 'rsc-arena/game'
 
-module Rsc
-  module Arena
-    # Your code goes here...
-  end
+module Rsc::Arena
 end

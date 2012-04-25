@@ -1,5 +1,4 @@
-describe Rsc::Arena do
-  it 'should assert truth' do
-    true.should be_true
-  end
+require 'spec_helper'
+
+module Rsc::Arena
 end
