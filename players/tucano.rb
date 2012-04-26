@@ -25,12 +25,13 @@ module Rsc::Arena::Players
       if (@i == 0) then 
         bet = 0
       else        
-        bet = 10 - @max_card
+        case @max_card
+          when 1 then bet = @chips
+          when 10 then bet = 0          
+          else bet = 10 - @max_card            
+        end
       end
-      
-      # routine mi gioco tutto
-      if @max_card == 1 then bet = @chips end
-      
+            
       @max_card = 0
       @i = @i + 1
       return bet
