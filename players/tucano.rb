@@ -1,7 +1,7 @@
 module Rsc::Arena::Players
   # michele AT sportboom.it
-  # sergio.berisso AT gmail.com
-  # davide.rambaldi AT gmail.com
+  # sergio DOT berisso AT gmail DOT com
+  # davide DOT rambaldi AT gmail DOT com
   class Tucano    
     
     def initialize
@@ -27,7 +27,7 @@ module Rsc::Arena::Players
     end
     
     def notify_ante_payed(amount)
-      puts "I've payed #{amount}"
+      #puts "I've payed #{amount}"
       @max_card = 0
       @opponent = 0
     end
