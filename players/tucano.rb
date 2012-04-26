@@ -1,7 +1,7 @@
 module Rsc::Arena::Players
-  # michele@sportboom.it
-  # sergio.berisso@gmail.com
-  # davide.rambaldi@gmail.com
+  # michele AT sportboom.it
+  # sergio.berisso AT gmail.com
+  # davide.rambaldi AT gmail.com
   class Tucano    
     
     def initialize
