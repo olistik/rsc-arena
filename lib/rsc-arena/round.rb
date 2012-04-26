@@ -46,6 +46,7 @@ module Rsc::Arena
     # phases
     def phase_ante(bot)
       bot.bet = bot.chips >= ante ? ante : bot.chips
+      bot.notify_ante_payed(bot.bet)
     end
 
     def phase_give_card(bot)
@@ -64,7 +65,7 @@ module Rsc::Arena
     end
 
     def opponents(bot)
-      @bots.select { |opponent| opponent != bot }
+      @bots.select { |opponent| opponent.name != bot.name }
     end
 
     def phase_resolve(bot)

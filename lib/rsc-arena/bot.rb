@@ -25,6 +25,10 @@ module Rsc::Arena
       @chips <=> other.chips
     end
 
+    def notify_ante_payed(amount)
+      @bot.notify_ante_payed(amount)
+    end
+
     def to_s
       "#{@name} -> #{@chips}"
     end
