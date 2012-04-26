@@ -12,7 +12,6 @@ module Rsc::Arena::Players
     attr_accessor :chips
     
     def see_opponent_card(opponent, card)
-      
       #puts "I have #{@chips} chips"
       #puts "#{card.value.class} , #{@max_card.class}"
       if (card.value.to_i > @max_card) then @max_card = card.value.to_i end
