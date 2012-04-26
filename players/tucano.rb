@@ -1,7 +1,7 @@
 module Rsc::Arena::Players
   # michele@sportboom.it
   # sergio.berisso@gmail.com
-  # davide.rambaldi@gmal.com
+  # davide.rambaldi@gmail.com
   class Tucano    
     
     def initialize
@@ -24,7 +24,7 @@ module Rsc::Arena::Players
       #puts "card max: #{@max_card}"
       
       if (@i == 0) then 
-        bet = (rand * 10).to_i
+        bet = 0
       else        
         bet = 10 - @max_card
       end
