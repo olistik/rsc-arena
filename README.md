@@ -4,7 +4,9 @@ The Arena for bots matches.
 
 ## Usage
 
-bundle exec ruby -Ilib test.rb
+```shell
+$ bundle exec ruby -Ilib test.rb
+```
 
 ## Contributing
 
