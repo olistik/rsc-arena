@@ -9,6 +9,10 @@ module Rsc::Arena::Players
       0
     end
 
+    def notify_ante_payed(amount)
+      puts "I've payed #{amount}"
+    end
+
     # class Rsc::Arena::Game
     #   def start
     #     @bots.shuffle!
